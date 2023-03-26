@@ -4,7 +4,7 @@
 const rps = ["rock", "paper", "scissors"];
 
 // User Input - Prompt
-const userChoice = prompt("Choose between rock, paper and scissors");
+const userChoice = prompt("Choose between rock, paper and scissors").toLowerCase(prompt);
 
 if (userChoice === "rock" || userChoice == "paper" || userChoice == "scissors") {
 console.log("Player Choice: " + `${userChoice}`);
